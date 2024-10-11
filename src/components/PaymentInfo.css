@@ -1,0 +1,62 @@
+.payment-info {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.payment-info form div {
+  margin-bottom: 15px;
+}
+
+.payment-info label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.payment-info input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.payment-info input:focus {
+  border-color: #2196f3;
+}
+
+.payment-info button {
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-info button:hover {
+  background-color: #388e3c;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  font-size: 16px;
+  margin-top: 20px;
+}
