@@ -50,7 +50,3 @@ npm install react react-dom react-router-dom vite semantic-ui-react semantic-ui-
 - Nếu gặp lỗi liên quan đến các thư viện, hãy kiểm tra phiên bản của Node.js và npm.
 - Đảm bảo rằng bạn đã cài đặt tất cả các phụ thuộc cần thiết bằng cách chạy `npm install`.
 
-## Ghi Chú Khác
-
-- Dự án sử dụng Context API để quản lý trạng thái giỏ hàng, giúp dễ dàng chia sẻ dữ liệu giữa các component mà không cần phải truyền props qua nhiều cấp.
-- Các component được tổ chức theo cấu trúc rõ ràng, giúp dễ dàng bảo trì và mở rộng trong tương lai.
