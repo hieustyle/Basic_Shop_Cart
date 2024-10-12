@@ -1,7 +1,7 @@
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Căn giữa các sản phẩm theo chiều ngang */
+  justify-content: center; 
   gap: 20px;
   padding: 20px;
   max-width: 1200px;
